@@ -1,0 +1,13 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    background-image: url("https://i.pinimg.com/1200x/1d/01/ae/1d01aeebde458c69892b9aaa73690adc.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
