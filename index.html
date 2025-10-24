@@ -6,12 +6,19 @@
       <script src="https://cdn.tailwindcss.com"></script>
     <title>hami miniMarket</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="flex justify-between px-20 py-3 bg-green-300 items-center">
+    <div class="flex justify-between sm:px-20 py- bg-green-300 items-center">
         <head class="flex">
-<h1 class="font-bold text-2xl ">Hami<span>Market</span></h1>
-          <ul class="flex gap-20 cursor-pointer ">
+
+          <div class="flex items-center">
+            <img class="w-20 h-20" src="one.png" alt="">
+<h1 class="font-bold text-2xl ">Hami<span class="text-orange-600">Market</span></h1>
+
+          </div>
+<i id="bars" class="fa-solid fa-bars sm:hidden text-3xl  ml-10"></i>
+          <ul  class="sm:flex gap-20 cursor-pointer hidden  ">
             <li><a href="#">Home</a> </li>
             <li><a href="#about">about</a></li>
             <li><a href="#product"> product </a></li>
@@ -20,11 +27,19 @@
         </head>
     </div>
 
-    <div class="flex gap-10 ">
-        <div class="left w-[680px]">
+    <div class="text-right sm:px-20 py- bg-green-300 items-center sm:hidden ">
+         <ul id="tog" class="sm:flex gap-20 cursor-pointer text-sm space-y-4 mr-10  font-semibold   ">
+            <li><a href="#">Home</a> </li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#product"> product </a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+    </div>
 
-            <h1 class="ml-10 text-4xl font-bold my-10">Welcome to Hami miniMarket</h1>
-            <p class="ml-10 text-lg mt-10"> Vegetables are one of the most essential foods in our daily lives. They provide our bodies with vitamins, minerals, fiber, and water,
+    <div class="sm:flex gap-10  overflow-hidden ">
+        <div class="left w-[680px]">
+            <h1 class="sm:ml-10 ml-3 sm:text-4xl text-2xl font-bold my-10">Welcome to Hami miniMarket</h1>
+            <p class="sm:ml-10 ml-2 text-lg mt-10 sm:w-[550px] w-[350px]  "> Vegetables are one of the most essential foods in our daily lives. They provide our bodies with vitamins, minerals, fiber, and water,
                 Vegetables also make our meals more colorful and tasty, encouraging us to enjoy healthy eating habits. From green leafy plants like
                 spinach to root vegetables like carrots and potatoes, every type has its own unique flavor and nutritional value.!</p>
                 <div class="l">
@@ -41,7 +56,7 @@
       
        <div  class="l">
          <h1 class="text-3xl font-bold text-center my-10">Our Products</h1>
-         <div class="grid grid-cols-4 gap-10 px-10">
+         <div class="grid sm:grid-cols-4 grid-cols-1 gap-10 px-10">
 
            <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
              <img class="w-full h-52" src="https://i.pinimg.com/736x/c2/da/d0/c2dad0767e554eb74dc1d7b59b79581f.jpg" alt="tomato">
@@ -129,12 +144,16 @@
           <section class="bg" id="about">
           
             <div class="">
-              <h1 class="text-3xl font-bold text-center my-10 mt-10">About Us</h1>
-              <p class="text-center px-20 mb-10">Hami miniMarket is dedicated to providing fresh, high-quality produce to our customers. We believe in the importance
+              <h1 class="text-3xl font-bold text-center mt-10 mb-10 pt-10">About Us</h1>
+              <p class="text-center sm:px-32 px-3 mb-5">Hami miniMarket is dedicated to providing fresh, high-quality produce to our customers. We believe in the importance
                  of healthy eating and strive to make it easy and affordable for everyone to access nutritious fruits and vegetables. Our team carefully selects each 
                  item to ensure it meets our standards for freshness and taste. 
                 Whether you're shopping for your family or looking for ingredients for a special recipe, Hami miniMarket is here to help you make healthy choices.</p>
-            </div>
+                <div class="text-center">
+            <button class="bg-green-500 text-white font-bold px-5 py-2 rounded-lg mt-10 ml-10 hover:bg-green-700">Learn More</button>
+                </div>
+          
+              </div>
           </section>
 
 
@@ -154,12 +173,25 @@
           </section>
 
 
-          <div class="k">
-            
-            <div class="l">
-              
-            </div>
+        <section>
+          <footer>
+            <div class="flex justify-between px-20 py-5 bg-green-300 items-center">
+              <p class="sm:text-2xl  font-semibold">Hami miniMarket</p>
+              <div class="text-xl gap-2 flex">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
 
-          </div>
+                
+              </div>
+
+            </div>
+            <div class="l">
+              <p class="text-center text-sm text-gray-600 py-3"> &copy; 2024 Hami miniMarket. All rights reserved.</p>
+            </div>
+          </footer>
+        </section>
+
+        <script src="script.js"> </script>
 </body>
 </html>

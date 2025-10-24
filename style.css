@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .left{
@@ -26,7 +27,7 @@ body{
     /* background-image:linear-gradient(rgba(0, 0,0, 0.3), rgba(0, 0,0, 0.6), rgba(0, 0,0, 0.4), ), url("https://i.pinimg.com/736x/3c/ed/86/3ced865727c98ee9ff400964423adaf4.jpg"); */
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     color: white;
     background-color: #0A5E08;
