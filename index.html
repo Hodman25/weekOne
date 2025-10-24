@@ -8,26 +8,158 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="flex justify-between px-20 py-3 bg-green-200 items-center">
+    <div class="flex justify-between px-20 py-3 bg-green-300 items-center">
         <head class="flex">
-<h1 class="font-bold ">Hami<span>Market</span></h1>
+<h1 class="font-bold text-2xl ">Hami<span>Market</span></h1>
           <ul class="flex gap-20 cursor-pointer ">
-            <li>Home</li>
-            <li>about</li>
-            <li>product</li>
-            <li>contact</li>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#product"> product </a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </head>
     </div>
 
-    <div class="flex ">
-        <div class="w-[680px]">
+    <div class="flex gap-10 ">
+        <div class="left w-[680px]">
 
             <h1 class="ml-10 text-4xl font-bold my-10">Welcome to Hami miniMarket</h1>
-            <p class="ml-10 text-lg"> Vegetables are one of the most essential foods in our daily lives. They provide our bodies with vitamins, minerals, fiber, and water, which help us stay healthy and energetic. Eating a variety of vegetables every day can protect us from many diseases, such as heart problems, diabetes, and even some types of cancer. Vegetables also make our meals more colorful and tasty, encouraging us to enjoy healthy eating habits. From green leafy plants like spinach to root vegetables like carrots and potatoes, every type has its own unique flavor and nutritional value.!</p>
+            <p class="ml-10 text-lg mt-10"> Vegetables are one of the most essential foods in our daily lives. They provide our bodies with vitamins, minerals, fiber, and water,
+                Vegetables also make our meals more colorful and tasty, encouraging us to enjoy healthy eating habits. From green leafy plants like
+                spinach to root vegetables like carrots and potatoes, every type has its own unique flavor and nutritional value.!</p>
+                <div class="l">
+                  <a href="#product">
+            <button class="bg-green-500 text-white font-bold px-5 py-2 rounded-lg mt-10 ml-10 hover:bg-green-700">Shop Now</button>
+                    </a>
+                </div>
         </div>
-        <img src="https://i.pinimg.com/736x/d8/05/5f/d8055f0a0148a3f452ff4869bfb9615b.jpg" alt="">
+        <img class="right" src="https://i.pinimg.com/736x/d8/05/5f/d8055f0a0148a3f452ff4869bfb9615b.jpg" alt="">
     </div>
 
+    <!-- products -->
+     <section id="product" class="mb-10 ">
+      
+       <div  class="l">
+         <h1 class="text-3xl font-bold text-center my-10">Our Products</h1>
+         <div class="grid grid-cols-4 gap-10 px-10">
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/c2/da/d0/c2dad0767e554eb74dc1d7b59b79581f.jpg" alt="tomato">
+             <h2 class="font-bold text-lg my-2">Tomato</h2>
+             <p class="text-sm text-gray-500">A tomato is a small, round, red fruit with a juicy inside and a sweet taste.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$3.00</p>
+            </div>
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/1200x/84/8b/b2/848bb27a88683b3bb251935e8a36c910.jpg" alt="banana">
+             <h2 class="font-bold text-lg my-2">Tomato</h2>
+             <p class="text-sm text-gray-500">A banana is a long, curved fruit with yellow skin and soft, sweet flesh inside. </p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+            
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/1200x/22/fb/5e/22fb5e2112f0715c3bb4e7a69b175238.jpg" alt="strawberry">
+             <h2 class="font-bold text-lg my-2">Strawberr</h2>
+             <p class="text-sm text-gray-500">A strawberry is a small, red, heart-shaped fruit with tiny seeds on its surface.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/1200x/57/2e/44/572e446e7ecd1261d1973b7e11f1d622.jpg" alt="watermelon">
+             <h2 class="font-bold text-lg my-2">WaterMelon</h2>
+             <p class="text-sm text-gray-500">A watermelon is a large, round fruit with green skin, red juicy flesh, and black seeds.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/a5/48/3a/a5483aa1fd2a077d4418f402c4200582.jpg" alt="apple">
+             <h2 class="font-bold text-lg my-2">Apple</h2>
+             <p class="text-sm text-gray-500">An apple is a round fruit with smooth skin that can be red, green, or yellow.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/0e/f9/ff/0ef9ff8f00d0ae17223c694a2829f97a.jpg" alt="Pineapple">
+             <h2 class="font-bold text-lg my-2">Pineapple</h2>
+             <p class="text-sm text-gray-500">A pineapple is a tropical fruit with rough, spiky skin and sweet, juicy yellow flesh inside.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$8.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/b6/23/11/b62311e496ba96340dce4173bc90efbd.jpg" alt="mango">
+             <h2 class="font-bold text-lg my-2">mango</h2>
+             <p class="text-sm text-gray-500">A mango is a tropical fruit with smooth, orange-yellow skin and sweet, juicy flesh inside.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/ea/55/5f/ea555f5a0b8a87b3017500a780fb1659.jpg" alt="carrot">
+             <h2 class="font-bold text-lg my-2">carrot</h2>
+             <p class="text-sm text-gray-500">Carrot is best eaten when steamed for atleast 3-5mins so as to release its nutrient inside it  </p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$1.50</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/16/06/3b/16063b667917633e4c8f3a9c6e672dce.jpg" alt="cucumber">
+             <h2 class="font-bold text-lg my-2">cucumber.</h2>
+             <p class="text-sm text-gray-500">A cucumber is a long, green vegetable with a crisp, watery flesh.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$2.00</p>
+            </div>
+
+
+           <div class=" w-72 h-90  px-3 py-5 rounded-lg shadow-md shadow-black hover:scale-105 hover:shadow-lg hover:shadow-black duration-300">
+             <img class="w-full h-52" src="https://i.pinimg.com/736x/6e/ef/4a/6eef4aaa0308274686e6319149751a1a.jpg" alt="orange">
+             <h2 class="font-bold text-lg my-2">orange</h2>
+             <p class="text-sm text-gray-500">An orange is a round, sweet citrus fruit with bright orange skin and juicy, tangy flesh inside. It’s rich in vitamin C.</p>
+             <p class="text-green-600 font-bold mt-2 mb-2">$13.00</p>
+            </div>
+
+
+            </div>
+            </div>
+          </section>
+
+          <section class="bg" id="about">
+          
+            <div class="">
+              <h1 class="text-3xl font-bold text-center my-10 mt-10">About Us</h1>
+              <p class="text-center px-20 mb-10">Hami miniMarket is dedicated to providing fresh, high-quality produce to our customers. We believe in the importance
+                 of healthy eating and strive to make it easy and affordable for everyone to access nutritious fruits and vegetables. Our team carefully selects each 
+                 item to ensure it meets our standards for freshness and taste. 
+                Whether you're shopping for your family or looking for ingredients for a special recipe, Hami miniMarket is here to help you make healthy choices.</p>
+            </div>
+          </section>
+
+
+
+          <section class="mb-10" id="contact">
+              <div class="k">
+                <form>
+                  <h1 class="text-3xl font-bold text-center my-10 mt-10">Contact Us</h1>
+                  <div class="flex flex-col gap-5 w-1/2 mx-auto">
+                    <input class="border border-gray-300 px-3 py-2 rounded-lg" type="text" placeholder="Your Name">
+                    <input class="border border-gray-300 px-3 py-2 rounded-lg" type="email" placeholder="Your Email">
+                    <textarea class="border border-gray-300 px-3 py-2 rounded-lg" rows="4" placeholder="Your Message"></textarea>
+                    <button class="bg-green-500 text-white font-bold px-5 py-2 rounded-lg hover:bg-green-700">Send Message</button>
+                  </div>
+                </form>
+              </div>
+          </section>
+
+
+          <div class="k">
+            
+            <div class="l">
+              
+            </div>
+
+          </div>
 </body>
 </html>
